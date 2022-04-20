@@ -25,7 +25,8 @@ body {
 
 a {
     text-decoration: none;
-    color: inherit;
+    /* color: inherit; */
+    color: var(--smooth-black);
 }
 
 li {
@@ -126,13 +127,15 @@ nav {
     font-family: var(--nav-font);
     padding: 12px;
     font-weight: bold;
-    color: var(--smooth-black);
     transition: ease .3s;
     border-radius: 3px;
 }
 
-.navbar li:hover {
+.navbar li a:hover {
     color: var(--smooth-white);
+}
+
+.navbar li:hover {
     background-color: var(--smooth-black);
 }
 
