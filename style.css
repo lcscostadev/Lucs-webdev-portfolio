@@ -297,8 +297,84 @@ nav {
     border-top: 2px solid var(--smooth-other-black);
 }
 
+
 footer {
     text-align: center;
     padding: 8px;
     background-color: var(--bg-navbar-color);
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        width: 80%;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-container {
+        max-width: 1200px;
+    }
+
+    .nav-container {
+        max-width: 1200px;
+    }
+
+
+    nav {
+        justify-content: space-between;
+    }
+
+    .hero-section {
+        width: 100%;
+        justify-content: center;
+        padding-left: 45px;
+    }
+
+    .txt-hero {
+        padding-right: 30px;
+        margin: 0;
+    }
+
+    .img-hero {
+        width: 382px;
+        justify-content: left;
+    }
+
+    .about-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #social_img {
+        width: 500px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 800) {
+
+    .header-container {
+        background-color: black;
+    }
+
+
+    .hero-section {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .img-hero {
+        width: 400px;
+        justify-content: left;
+    }
 }
