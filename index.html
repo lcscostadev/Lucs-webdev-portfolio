@@ -50,6 +50,7 @@
                         <li><a href="#hire-me" class="nav-link">Hire-me</a></li>
                         <li><a href="#about" class="nav-link">About</a></li>
                         <li><a href="#projects" class="nav-link">Projects</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
 
                     </ul>
 
@@ -74,7 +75,7 @@
                     i have motivation to give my best, I am very competitive and i always try to improve my skills.
                     errors and failures.
                 </p>
-                <input type="button" value="Hire me" class="btn">
+                <a href="#contact"><input type="button" value="Hire me" class="btn"></a>
             </div>
             <div class="img-hero">
                 <img src="images/pexels-soumil-kumar-735911.jpg" alt="">
@@ -179,6 +180,16 @@
                 </div>
             </div>
         </section>
+
+        <div class="form-container" id="contact">
+            <form>
+                <h3>GET IN TOUCH</h3>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Email Here" required>
+                <textarea id="message" rows="4" placeholder="How can i help you?" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </main>
 
     <footer>
@@ -186,7 +197,22 @@
     </footer>
 
     <script src="script.js"></script>
-
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+    <script>
+        // function sendEmail() {
+        //     Email.send({
+        //         Host: "smtp.yourisp.com",
+        //         Username: "username",
+        //         Password: "password",
+        //         To: 'them@website.com',
+        //         From: "you@isp.com",
+        //         Subject: "This is the subject",
+        //         Body: "And this is the body"
+        //     }).then(
+        //         message => alert(message)
+        //     );
+        // }
+    </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

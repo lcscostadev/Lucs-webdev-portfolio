@@ -211,6 +211,8 @@ nav {
     color: white;
 }
 
+/* about section */
+
 .about-wrapper {
     display: flex;
 }
@@ -261,6 +263,8 @@ nav {
     padding: 10px 0;
 }
 
+/* projects section */
+
 .project-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, 320px);
@@ -307,8 +311,71 @@ nav {
     max-width: 1100px;
     margin: 0 auto;
     border-top: 2px solid var(--smooth-other-black);
+    border-bottom: 2px solid var(--smooth-other-black);
 }
 
+/* form section */
+
+.form-container {
+    width: 100%;
+    height: 60vh;
+    background: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background: var(--bg-navbar-color);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 2vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.466);
+}
+
+form h3 {
+    color: var(--smooth-black);
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+    font-family: var(--secondary-font);
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: var(--smooth-white);
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+
+form button {
+    padding: 15px;
+    background-color: #504f4f;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    transition: ease .5s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.315);
+}
+
+form button:hover {
+    background-color: #393939;
+    color: white;
+}
+
+/* footer section */
 
 footer {
     text-align: center;
