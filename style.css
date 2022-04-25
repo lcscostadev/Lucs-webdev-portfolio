@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --bg-color: #eff0f5;
     --bg-header-color: #e5e8ee;
