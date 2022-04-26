@@ -637,6 +637,10 @@ footer {
 
 @media (max-width: 400px) {
 
+    .to-top.active {
+        opacity: 0;
+    }
+
     .logo {
         max-width: 100%;
         padding: 0px;
