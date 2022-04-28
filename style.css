@@ -69,6 +69,7 @@ p {
     opacity: 0;
     pointer-events: none;
     transition: all .4s;
+
 }
 
 .to-top.active {
