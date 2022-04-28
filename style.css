@@ -174,17 +174,17 @@ nav {
 .navbar li {
     margin-right: 35px;
     font-family: var(--nav-font);
-    padding: 12px;
     font-weight: bold;
     transition: ease .3s;
     border-radius: 3px;
 }
 
-.navbar li a:hover {
-    color: var(--smooth-white);
+.navbar li a {
+    padding: 12px;
 }
 
-.navbar li:hover {
+.navbar li a:hover {
+    color: var(--smooth-white);
     background-color: var(--smooth-black);
 }
 
