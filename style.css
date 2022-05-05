@@ -182,11 +182,13 @@ nav {
 
 .navbar li a {
     padding: 12px;
+    transition: ease-out .5s;
 }
 
 .navbar li a:hover {
     color: var(--smooth-white);
     background-color: var(--smooth-black);
+    border-radius: 5px;
 }
 
 /* main sec */
