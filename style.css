@@ -308,6 +308,7 @@ nav {
 .project {
     border: 1px solid var(black);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.315);
+
 }
 
 .thumbnail {
@@ -318,7 +319,7 @@ nav {
 }
 
 .project-preview {
-    background-color: #fff;
+    background-color: rgb(226, 226, 226);
     padding: 15px;
 }
 
