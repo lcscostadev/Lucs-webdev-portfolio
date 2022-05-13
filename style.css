@@ -299,8 +299,8 @@ nav {
 
 .project-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 320px);
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, 280px);
+    gap: 15px;
     justify-content: center;
     padding-bottom: 50px;
 }
@@ -496,6 +496,12 @@ footer {
 
 @media(max-width: 800px) {
 
+    .logo {
+        max-width: 100%;
+        padding: 0 20px;
+        margin: 0px;
+    }
+
     .header {
         display: flex;
         flex-direction: row;
@@ -639,7 +645,19 @@ footer {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
+
+    .navbar {
+        position: fixed;
+        left: -100%;
+        top: 120px;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--smooth-white);
+        width: 100%;
+        text-align: center;
+        transition: .3s;
+    }
 
     .to-top.active {
         opacity: 0;
